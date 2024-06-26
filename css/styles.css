@@ -30,10 +30,7 @@ color: #4d5ae5;
 font-family: "Raleway", sans-serif;}
 
 .header-menu-list { display: flex;
-align-items: flex-start;
 justify-content: flex-start;
-flex-direction: row;
-gap: 40px;
 width: 261px;
 height: 24px;
 
@@ -44,6 +41,9 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #2e2f42;
+}
+.header-menu-link {
+    color: #2e2f42;
 }
 .header-menu-link:hover {
     color: #404BBF;
@@ -60,6 +60,9 @@ color: #2e2f42;
 .header-link-active:active {
     color: #404BBF;
 }
+.header-address {
+    font-style: normal;
+}
 .header-contacts-link{
     font-weight: 400;
 font-size: 16px;
@@ -74,6 +77,9 @@ color: #404BBF;
 .header-contacts-link:focus{
     color: #404BBF;
     }
+    .main-section-button {
+        background-color: #2e2f42;
+    }
 .title-main{
     font-weight: 700;
 font-size: 56px;
@@ -84,13 +90,7 @@ color: #fff;
 background-color: #2e2f42;
 }
 .button-main{
-    display: flex;
-    align-items: flex-start;
     justify-content: flex-start;
-    flex-direction: row;
-    gap: 10px;
-    border-radius: 4px;
-    padding: 16px 32px;
     width: 169px;
     height: 56px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
@@ -101,11 +101,18 @@ background-color: #2e2f42;
 line-height: 1.5;
 letter-spacing: 0.04em;
 color: #fff;
+font-family: "Roboto". sans-serif;
 }
 .button-main:hover{
     color:#404BBF;
 }
 .button-main:focus{
+    color:#404BBF;
+}
+.button-name:hover{
+    color:#404BBF;
+}
+.button-name:focus{
     color:#404BBF;
 }
 
@@ -142,6 +149,9 @@ letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
 text-transform: capitalize;
+}
+.main-list-images{
+    background-color: #FFFFFF;
 }
 
 .main-list-name{
