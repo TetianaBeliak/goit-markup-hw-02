@@ -12,16 +12,6 @@ a {
 text-decoration: none;
 }
 
-.header-logo-blue {
-font-weight: 700;
-font-size: 18px;
-line-height: 1.17;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #2e2f42;
-font-family: "Raleway", sans-serif;
-}
-
 .header-logo {
 font-weight: 700;
 font-size: 18px;
@@ -32,8 +22,9 @@ color: #4d5ae5;
 font-family: "Raleway", sans-serif;
 }
 
-.header-menu-list { 
+.header-logo-blue {
 color: #2e2f42;
+font-family: "Raleway", sans-serif;
 }
 
 .header-menu-item {
@@ -48,31 +39,24 @@ color: #2e2f42;
     color: #2e2f42
 }
 
-.header-menu-link:hover {
-color: #404BBF;
-}
-
+.header-menu-link:hover,
 .header-menu-link:focus {
 color: #404BBF;
 }
+
 
 .contacts {
 font-style: normal;
 }
 
 .header-contacts-link{
-font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
-font-style: normal;
 }
 
-.header-contacts-link:hover{
-color: #404BBF;
-}
-
+.header-contacts-link:hover,
 .header-contacts-link:focus{
 color: #404BBF;
 }
@@ -82,13 +66,11 @@ background-color: #2e2f42;
 }
 
 .title-main{
-font-weight: 700;
 font-size: 56px;
 line-height: 1.07;
 letter-spacing: 0.02em;
 text-align: center;
 color: #fff;
-background-color: #2e2f42;
 }
 
 .button-main{
@@ -117,15 +99,17 @@ color: #2e2f42;
 }
 
 .main-advanced-item {
-font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
 }
 
+.main-name{
+    background-color: #f4f4fd;
+}
+
 .main-list{
-font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
 letter-spacing: 0.02em;
@@ -143,16 +127,13 @@ font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
-text-align: center;
 color: #2e2f42;
 }
 
 .main-list-item{
-font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-text-align: center;
 color: #434455;
 }
 
@@ -171,17 +152,10 @@ font-family: "Raleway", sans-serif;
 }
 
 .footer-logo-blue{
-font-weight: 700;
-font-size: 18px;
-line-height: 1.17;
-letter-spacing: 0.03em;
-text-transform: uppercase;
 color: #f4f4fd;
 }
 
 .footer-subtitle  {
-font-weight: 400;
-font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #f4f4fd;
